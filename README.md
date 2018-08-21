@@ -22,7 +22,7 @@ More information about The Things Network, The Things Gateway and The Things Uno
 The project consists of one Arduino sketch and 3 NodeJS files.<br/>
 The most important files are:<br/>
 
-- dht11\_dht11.ino: This sketch is uploaded to the The Things Uno which reads the DHT11 sensor data and sends it to a LoRa Gateway (e.g. The Things Gateway). If the Gateway is connected to The Things Network server, this data can be seen in The Things Network console.
+- dht11.ino: This sketch is uploaded to the The Things Uno which reads the DHT11 sensor data and sends it to a LoRa Gateway (e.g. The Things Gateway). If the Gateway is connected to The Things Network server, this data can be seen in The Things Network console.
 
 - dht\_ttn.js: This NodeJS file reads the DHT11 sensor data from The Things Network server.
 
